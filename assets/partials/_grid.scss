@@ -1,0 +1,73 @@
+/* grille flexbox Raphael Alsacréation */
+/*Conserver pour mémoire mais pas utiliser dans le projet Tangaye*/
+
+@mixin grid($colonnes, $gutter) {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: -$gutter;
+	& > * {
+		flex: 0 0 auto;
+		margin-left: $gutter;
+		width: 100% / $colonnes - $gutter;
+	}
+	& > .flexitem-double {
+		width: 100% * 2 / $colonnes - $gutter;
+	}
+	& > .flexitem-triple {
+		width: 100% * 3 / $colonnes - $gutter;
+	}
+	& > .flexitem-first {
+		order: -1;
+	}
+}
+
+.grid-container {
+	@include grid(3, 2%);
+}
+
+
+/* grille flexbox "gridly"*/
+
+.row {
+	display: flex;
+}
+
+.col {
+	flex: 1;
+}
+
+@media(max-width:$mobile-screen) {
+	.row {
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.col {
+		flex: 0 0 100%;
+	}
+}
+
+.col-tenth {
+	flex: 0 0 10%;
+}
+
+.col-fifth {
+	flex: 0 0 20%;
+}
+
+.col-quarter {
+	flex: 0 0 25%;
+}
+
+.col-third {
+	flex: 0 0 33.3333%;
+}
+
+.col-2third {
+	flex: 0 0 66.6667%;
+}
+
+.col-half {
+	flex: 0 0 50%
+}

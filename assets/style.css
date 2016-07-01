@@ -1,0 +1,972 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 100, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+a:active,
+a:focus,
+a:hover {
+  outline: none; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 111, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 120, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 128, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 137, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 146, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 155, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 164, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 171, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 175, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 186, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 194, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 205, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 213, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 233, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 257, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 279, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 304, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 313, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 336, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 348, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 357, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+input[type="search"] {
+  appearance: field;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 369, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 389, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 418, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 424, E:/Documents/portfolio/Tangaye/www/assets/partials/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 13, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 27, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 32, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+/* line 49, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 57, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 67, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+/* line 75, E:/Documents/portfolio/Tangaye/www/assets/partials/_main.scss */
+.browserupgrade {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0; }
+
+/* TYPOGRAPHY */
+/* Lato normal*/
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Regular.ttf");
+  font-weight: normal; }
+
+/*Lato light*/
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Light.ttf");
+  font-weight: lighter; }
+
+/*lato semibold*/
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Semibold.ttf");
+  font-weight: 500; }
+
+/*Lato bold*/
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Bold.ttf");
+  font-weight: bold; }
+
+/*Lato italic*/
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Italic.ttf");
+  font-style: italic; }
+
+/*BalaCywydNF*/
+@font-face {
+  font-family: 'BalaCynwydNF';
+  src: url("fonts/BalaCynwydNF.ttf"); }
+
+/* line 131, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+h1,
+.h1 {
+  font-family: "BalaCynwydNF", "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 4.6vw;
+  color: #F6953A; }
+  @media (min-width: 1440px) {
+    /* line 131, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h1,
+    .h1 {
+      font-size: 46px; } }
+  @media (max-width: 468px) {
+    /* line 131, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h1,
+    .h1 {
+      font-size: 32.2px; } }
+
+/* line 140, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+h2,
+.h2 {
+  font-family: "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 3.2vw;
+  font-weight: 100;
+  color: #FDEAD8; }
+  @media (min-width: 1440px) {
+    /* line 140, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h2,
+    .h2 {
+      font-size: 32px; } }
+  @media (max-width: 468px) {
+    /* line 140, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h2,
+    .h2 {
+      font-size: 22.4px; } }
+  @media (max-width: 468px) {
+    /* line 140, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h2,
+    .h2 {
+      color: #29241E;
+      font-weight: 500; } }
+
+/* line 155, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+h3,
+.h3 {
+  font-family: "BalaCynwydNF", "Lato", sans-serif;
+  font-size: 3.6vw;
+  color: #972E13;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+  @media (min-width: 1440px) {
+    /* line 155, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h3,
+    .h3 {
+      font-size: 36px; } }
+  @media (max-width: 468px) {
+    /* line 155, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h3,
+    .h3 {
+      font-size: 25.2px; } }
+
+/* line 163, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+.titre-widget {
+  text-align: center;
+  color: #58412B; }
+
+/* line 169, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+h4,
+.h4 {
+  font-family: "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.35em;
+  font-weight: 500;
+  color: #F6953A; }
+  @media (max-width: 468px) {
+    /* line 169, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    h4,
+    .h4 {
+      font-size: 1.1em; } }
+
+/* line 182, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #FDEAD8;
+  line-height: 1.5em; }
+
+/* line 190, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+strong,
+b {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #F6953A; }
+
+/* line 196, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+quote {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  color: #FDEAD8; }
+
+/* line 202, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #268597; }
+  /* line 208, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+  a:active,
+  a:focus,
+  a:hover {
+    color: #0D505D;
+    font-weight: 500; }
+
+/* line 214, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+small {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: #35474A; }
+
+/* line 221, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+ul,
+ol {
+  padding-left: 2.25em;
+  color: #268597; }
+
+/* line 226, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+ul > li {
+  list-style: square; }
+
+/* MEDIAS */
+/* line 233, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+img {
+  max-width: 100%;
+  max-height: auto; }
+
+/* line 238, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+figure {
+  margin: 0; }
+  /* line 240, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+  figure figcaption {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #35474A;
+    text-align: center;
+    padding: 1em 0; }
+
+/* line 249, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+#galerie {
+  width: 100%;
+  overflow: hidden; }
+  /* line 253, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+  #galerie ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 300%; }
+    /* line 258, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+    #galerie ul li {
+      list-style: none;
+      width: 33.33%;
+      float: left; }
+      /* line 262, E:/Documents/portfolio/Tangaye/www/assets/partials/_variables.scss */
+      #galerie ul li img {
+        width: 100%; }
+
+/* grille flexbox Raphael Alsacréation */
+/*Conserver pour mémoire mais pas utiliser dans le projet Tangaye*/
+/* line 26, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -2%; }
+  /* line 10, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .grid-container > * {
+    flex: 0 0 auto;
+    margin-left: 2%;
+    width: 31.33333%; }
+  /* line 15, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .grid-container > .flexitem-double {
+    width: 64.66667%; }
+  /* line 18, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .grid-container > .flexitem-triple {
+    width: 98%; }
+  /* line 21, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .grid-container > .flexitem-first {
+    order: -1; }
+
+/* grille flexbox "gridly"*/
+/* line 33, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.row {
+  display: flex; }
+
+/* line 37, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col {
+  flex: 1; }
+
+@media (max-width: 468px) {
+  /* line 42, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .row {
+    flex-direction: column;
+    justify-content: flex-end; }
+  /* line 46, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+  .col {
+    flex: 0 0 100%; } }
+
+/* line 51, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-tenth {
+  flex: 0 0 10%; }
+
+/* line 55, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-fifth {
+  flex: 0 0 20%; }
+
+/* line 59, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-quarter {
+  flex: 0 0 25%; }
+
+/* line 63, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-third {
+  flex: 0 0 33.3333%; }
+
+/* line 67, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-2third {
+  flex: 0 0 66.6667%; }
+
+/* line 71, E:/Documents/portfolio/Tangaye/www/assets/partials/_grid.scss */
+.col-half {
+  flex: 0 0 50%; }
+
+/*========== NAVIGATION ===========*/
+/*styles généraux*/
+/* line 6, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+nav {
+  width: 100%;
+  padding: 0;
+  z-index: 1; }
+  /* line 10, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  nav > ul {
+    background-color: rgba(41, 33, 30, 0.85);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0; }
+    /* line 17, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    nav > ul li {
+      list-style: none; }
+      /* line 19, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+      nav > ul li > ul {
+        font-style: italic; }
+      /* line 22, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+      nav > ul li a {
+        margin: 0;
+        padding: 1em;
+        display: block;
+        color: #F6953A;
+        text-decoration: none; }
+        /* line 30, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+        nav > ul li a:active,
+        nav > ul li a:focus,
+        nav > ul li a:hover {
+          color: #F6613A;
+          font-weight: normal;
+          background: #29211E; }
+
+/* line 39, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+.nav-principale {
+  position: fixed; }
+  /* line 41, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > input {
+    display: none; }
+
+/* line 45, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+.nav-secondaire {
+  bottom: 0; }
+  /* line 49, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-secondaire ul {
+    text-align: center;
+    justify-content: center; }
+
+/*styles mobiles*/
+@media screen and (max-width: 736px) {
+  /* Theming nav */
+  /* line 57, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale {
+    justify-content: flex-end;
+    flex-direction: column; }
+  /* line 62, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 0 0 100%;
+    width: 66.66%;
+    top: 1rem;
+    z-index: 1;
+    /* animation apparition menu */
+    -webkit-transform: translateX(-110%) translateZ(0);
+    -ms-transform: translateX(-110%) translateZ(0);
+    transform: translateX(-110%) translateZ(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.72, 0.89, 0.28, 1.39);
+    transition: transform 0.3s cubic-bezier(0.72, 0.89, 0.28, 1.39);
+    will-change: transform;
+    /* global styles */
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    list-style: none; }
+    /* line 82, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    .nav-principale > ul a {
+      padding: 0.5em; }
+  /* Theming opened nav */
+  /* handling clic with CSS3 checked */
+  /* line 89, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > input:checked ~ ul {
+    -webkit-transform: translateX(0) translateZ(0);
+    -ms-transform: translateX(0) translateZ(0);
+    transform: translateX(0) translateZ(0); }
+  /* Global styling nav button */
+  /* line 95, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > label {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(41, 33, 30, 0.85);
+    width: 100%;
+    height: 50px;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: 0.2s -webkit-transform cubic-bezier(0, 1.8, 1, 1.2);
+    transition: 0.2s transform cubic-bezier(0, 1.8, 1, 1.2); }
+  /* line 108, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > label:before {
+    content: "";
+    display: block;
+    z-index: 1;
+    height: 1.6rem;
+    width: 2rem;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, from(#F6953A), to(#F6953A)), -webkit-gradient(linear, left top, right top, from(#F6953A), to(#F6953A)), -webkit-gradient(linear, left top, right top, from(#F6953A), to(#F6953A));
+    background-image: -webkit-linear-gradient(left, #F6953A, #F6953A), -webkit-linear-gradient(left, #F6953A, #F6953A), -webkit-linear-gradient(left, #F6953A, #F6953A);
+    background-image: linear-gradient(to right, #F6953A, #F6953A), linear-gradient(to right, #F6953A, #F6953A), linear-gradient(to right, #F6953A, #F6953A);
+    background-position: center top, center, center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: 2rem 0.3rem;
+    background-size: 2rem 0.3rem;
+    margin: .75em;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: 0.2s cubic-bezier(0, 1.8, 1, 1.2);
+    transition: 0.2s cubic-bezier(0, 1.8, 1, 1.2);
+    transition-property: background; }
+  /* Theming opened nav button */
+  /* line 133, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale > input:checked + label::before {
+    background-position: center, center, center; }
+  /*Theming nav-secondaire*/
+  /* line 138, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-secondaire li {
+    flex-basis: 50%; } }
+
+/*styles écrans ordi*/
+@media screen and (min-width: 737px) {
+  /* line 146, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale label {
+    display: none; }
+  /* line 147, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  .nav-principale ul {
+    justify-content: flex-end; }
+    /* line 149, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    .nav-principale ul li > ul {
+      position: absolute;
+      display: none;
+      padding: 0; }
+    /* line 156, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    .nav-principale ul li:active > ul,
+    .nav-principale ul li:hover > ul,
+    .nav-principale ul li:focus > ul {
+      background-color: rgba(41, 33, 30, 0.85);
+      display: flex;
+      flex-direction: column;
+      width: inherit; } }
+
+/*========== HEADER ==========*/
+/* line 168, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+header {
+  justify-content: flex-end;
+  min-height: 66vh;
+  background-image: url("img/banner-tangaye.jpg");
+  background-position: left center;
+  background-size: cover; }
+  /* line 174, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  header div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    /* line 181, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    header div h1 {
+      width: 80%;
+      margin: 0 auto; }
+  @media (min-width: 469px) and (max-width: 736px) {
+    /* line 168, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    header {
+      flex-basis: 66.66%; } }
+
+/*========== CORPS PRINCIPAL & ASIDE ==========*/
+/* line 195, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+#container {
+  background: url("img/fond.jpg");
+  background-size: cover; }
+
+/* line 200, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+main {
+  width: 80%;
+  margin: 2em auto; }
+  /* line 204, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  main > div,
+  main > aside {
+    box-sizing: border-box;
+    padding: 0 2em; }
+  /* line 208, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  main > aside {
+    background-color: #FDEAD8;
+    padding-bottom: 1em; }
+  /* line 212, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  main #aLaUne div:last-child {
+    box-sizing: border-box;
+    padding-left: 2em; }
+    @media (max-width: 468px) {
+      /* line 212, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+      main #aLaUne div:last-child {
+        padding: 0; } }
+  /* line 219, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+  main #contenuPrincipal h3 {
+    margin-top: 0; }
+  @media (min-width: 469px) and (max-width: 736px) {
+    /* line 200, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    main {
+      flex-direction: column; } }
+  @media (min-width: 737px) {
+    /* line 226, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    main #contenuPrincipal {
+      flex: 0 0 66.66%; }
+    /* line 229, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+    main aside {
+      flex: 0 0 33.33%; } }
+
+/* line 237, E:/Documents/portfolio/Tangaye/www/assets/partials/_modules.scss */
+footer #map iframe {
+  max-height: 250px;
+  max-height: 70vh;
+  max-width: 100%;
+  background-color: antiquewhite; }
+
+/*# sourceMappingURL=style.css.map */
